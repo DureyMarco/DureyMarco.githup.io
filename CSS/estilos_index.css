@@ -1,0 +1,132 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.color{
+    background-color: palevioletred;
+}
+.cabecera{
+    text-align: center;
+    padding: 20px;
+    font-size: 60px;
+    background-color: rgb(231, 171, 191);
+}
+#titulo{
+    font-style: italic;
+    color: #000000;
+    font-size: 40px;
+}
+#frase{
+    font-family: cursive;
+    color: #000000;
+    font-size: 20px;
+}
+.barra{
+    list-style-type: none;
+    margin-bottom: 25px;
+    text-align: center;
+    border: black solid 1px;
+    background-color: #91ebe6;
+    
+
+}
+.barra li:hover{
+    background-color: aqua;
+   
+
+}
+.barra a{
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    width: 100px;
+}
+.barra li{
+    display: inline-flex;
+}
+.lateral{
+    float: right;
+    width: 30%;
+    text-align: center;
+    padding-top: 0px;
+}
+.principal{
+    text-align: justify;
+    font-style: italic;
+    width: 70%;
+    float: left;
+
+
+}
+.imagen1{
+    padding-left: 20px;
+}
+
+#texto{
+    padding-left: 20px;
+}
+
+.copy{
+    width: 100%;
+    background-color: rgb(16, 163, 163);
+    clear: both;
+ }
+ 
+ .copy .group-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+ }
+ 
+ 
+ 
+ .copy .group-1 .box h2{
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 20px;
+    align-content: center;
+ }
+ 
+ .copy .group-1 .box p{
+    color: #111111;
+    margin-bottom: 10px;
+ }
+ 
+ .copy .group-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: rgb(12, 11, 11);
+    margin-right: 10px;
+    background-color:white;
+    text-align: center;
+    transition: all 300ms ease;
+ }
+ 
+ .copy .group-1 .red-social a:hover{
+    color: #131212;
+ }
+ 
+ .copy .group-2{
+    background-color:#91ebe6;
+    padding: 15px 10px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+ }
+ 
+ .copy .group-2 small{
+    font-size: 15px;
+ }
+ .ayuda{
+     text-align: center;
+ }
+ .sigueme{
+     margin-left: 150px;
+ }
+ 
